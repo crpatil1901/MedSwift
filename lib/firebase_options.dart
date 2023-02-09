@@ -29,12 +29,12 @@ class DefaultFirebaseOptions {
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
+              'you can reconfigure this by running the FlutterFire CLI again.',
         );
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
+              'you can reconfigure this by running the FlutterFire CLI again.',
         );
       default:
         throw UnsupportedError(
@@ -44,39 +44,39 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyB5FqVBEMLgleHddleZWY4qO28N3ePijHc',
-    appId: '1:184925199163:web:c077c8b493ee7faeed351e',
-    messagingSenderId: '184925199163',
-    projectId: 'hack-it-79e99',
-    authDomain: 'hack-it-79e99.firebaseapp.com',
-    storageBucket: 'hack-it-79e99.appspot.com',
+    apiKey: 'AIzaSyDfr8awdzaPd9Jp64lrqvKCbiTaPCi3ITM',
+    appId: '1:758039097015:web:0b964fac42d06453752732',
+    messagingSenderId: '758039097015',
+    projectId: 'medswift-857ec',
+    authDomain: 'medswift-857ec.firebaseapp.com',
+    storageBucket: 'medswift-857ec.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBgHOCHpkFWCZaKI_xy_ehL2U_w4otYPGs',
-    appId: '1:184925199163:android:ee20cb5a387847dced351e',
-    messagingSenderId: '184925199163',
-    projectId: 'hack-it-79e99',
-    storageBucket: 'hack-it-79e99.appspot.com',
+    apiKey: 'AIzaSyCWvshxMzpUta65vpi90ynjr2nRJXf0dhw',
+    appId: '1:758039097015:android:75d27171b1c385e7752732',
+    messagingSenderId: '758039097015',
+    projectId: 'medswift-857ec',
+    storageBucket: 'medswift-857ec.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBd23d9ZT8JmrUqpaYZwy0So5pmsXJkDtk',
-    appId: '1:184925199163:ios:43a58e07bb4acb05ed351e',
-    messagingSenderId: '184925199163',
-    projectId: 'hack-it-79e99',
-    storageBucket: 'hack-it-79e99.appspot.com',
-    iosClientId: '184925199163-reul5e54q0d26mvfguh99hngqe6qf8am.apps.googleusercontent.com',
-    iosBundleId: 'com.example.hackIt',
+    apiKey: 'AIzaSyB22hS0RRts8dB70HntmKRDa54VUvEapbc',
+    appId: '1:758039097015:ios:c0c521a42cc4ee51752732',
+    messagingSenderId: '758039097015',
+    projectId: 'medswift-857ec',
+    storageBucket: 'medswift-857ec.appspot.com',
+    iosClientId: '758039097015-fth9bv8lcjee2bfn5bepi4je5qts7777.apps.googleusercontent.com',
+    iosBundleId: 'com.example.medSwift',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBd23d9ZT8JmrUqpaYZwy0So5pmsXJkDtk',
-    appId: '1:184925199163:ios:43a58e07bb4acb05ed351e',
-    messagingSenderId: '184925199163',
-    projectId: 'hack-it-79e99',
-    storageBucket: 'hack-it-79e99.appspot.com',
-    iosClientId: '184925199163-reul5e54q0d26mvfguh99hngqe6qf8am.apps.googleusercontent.com',
-    iosBundleId: 'com.example.hackIt',
+    apiKey: 'AIzaSyB22hS0RRts8dB70HntmKRDa54VUvEapbc',
+    appId: '1:758039097015:ios:c0c521a42cc4ee51752732',
+    messagingSenderId: '758039097015',
+    projectId: 'medswift-857ec',
+    storageBucket: 'medswift-857ec.appspot.com',
+    iosClientId: '758039097015-fth9bv8lcjee2bfn5bepi4je5qts7777.apps.googleusercontent.com',
+    iosBundleId: 'com.example.medSwift',
   );
 }

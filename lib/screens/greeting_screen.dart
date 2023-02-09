@@ -32,7 +32,6 @@ class GreetingScreen extends StatelessWidget {
                   child: Stack(
                     children: [
                       Positioned(
-
                         child: Text(
                           "swift",
                           style: Theme.of(context).textTheme.displayMedium?.copyWith(

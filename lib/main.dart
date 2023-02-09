@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:med_swift/screens/HomeScreen.dart';
+import 'package:med_swift/screens/home_screen.dart';
 import 'package:med_swift/screens/greeting_screen.dart';
-import 'package:med_swift/services/AuthService.dart';
+import 'package:med_swift/services/auth_service.dart';
 import 'package:med_swift/theme/color_scheme.dart';
 import 'package:med_swift/theme/textTheme.dart';
 import 'firebase_options.dart';

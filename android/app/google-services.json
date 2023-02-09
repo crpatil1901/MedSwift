@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "758039097015",
+    "project_id": "medswift-857ec",
+    "storage_bucket": "medswift-857ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758039097015:android:75d27171b1c385e7752732",
+        "android_client_info": {
+          "package_name": "com.example.med_swift"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758039097015-mdpti0frkicfujc1vn1769vi2b4f4arr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWvshxMzpUta65vpi90ynjr2nRJXf0dhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758039097015-mdpti0frkicfujc1vn1769vi2b4f4arr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

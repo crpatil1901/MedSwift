@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:med_swift/screens/HomeScreen.dart';
 import 'package:med_swift/screens/greeting_screen.dart';
+import 'package:med_swift/services/AuthService.dart';
 import 'package:med_swift/theme/color_scheme.dart';
 import 'package:med_swift/theme/textTheme.dart';
 import 'firebase_options.dart';
@@ -31,7 +33,7 @@ class MyApp extends StatelessWidget {
         textTheme: medSwiftTextTheme,
         useMaterial3: true,
       ),
-      home: GreetingScreen(),
+      home: AuthService().currentUserExists ? const HomeScreen() : const GreetingScreen(),
     );
   }
 }

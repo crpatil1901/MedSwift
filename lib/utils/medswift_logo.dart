@@ -8,40 +8,39 @@ class MedswiftLogo extends StatelessWidget {
     return Row(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Text(
-          "MED",
-          style: Theme.of(context).textTheme.displayLarge?.copyWith(
-            color: Theme.of(context).colorScheme.onPrimaryContainer,
-            shadows: <Shadow>[
-              Shadow(
-                  offset: Offset(5.0, 5.0),
-                  blurRadius: 4.0,
-                  color: Theme.of(context).colorScheme.onPrimary
-              ),
-            ],
+        Padding(
+          padding: const EdgeInsets.only(bottom: 8.0),
+          child: Text(
+            "MED",
+            style: Theme.of(context).textTheme.displayLarge?.copyWith(
+              color: Theme.of(context).colorScheme.onBackground,
+              shadows: <Shadow>[
+                Shadow(
+                    offset: const Offset(5.0, 5.0),
+                    blurRadius: 4.0,
+                    color: Theme.of(context).colorScheme.onBackground.withOpacity(0.2),
+                ),
+              ],
+            ),
           ),
         ),
-        Container(
-          color: Colors.purple,
-          child: Stack(
-              children: [
-                Positioned(
-                  child: Text(
-                    "swift",
-                    style: Theme.of(context).textTheme.displayMedium?.copyWith(
-                      color: Theme.of(context).colorScheme.onPrimaryContainer,
-                      shadows: <Shadow>[
-                        Shadow(
-                            offset: Offset(5.0, 5.0),
-                            blurRadius: 4.0,
-                            color: Theme.of(context).colorScheme.onPrimary
-                        ),
-                      ],
-                    ),
+        Column(
+          children: [
+            const SizedBox(height: 1,),
+            Text(
+              "swift",
+              style: Theme.of(context).textTheme.displayMedium?.copyWith(
+                color: Theme.of(context).colorScheme.onBackground,
+                shadows: <Shadow>[
+                  Shadow(
+                      offset: const Offset(5.0, 5.0),
+                      blurRadius: 4.0,
+                      color: Theme.of(context).colorScheme.onBackground.withOpacity(0.2),
                   ),
-                ),
-              ]
-          ),
+                ],
+              ),
+            ),
+          ],
         ),
       ],
     );
